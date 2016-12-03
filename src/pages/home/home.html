@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card class='card-building building-farm'>
+    <ion-card-header>
+      <span class='card-title'>Ferme</span>
+      <button ion-button item-left icon-right color="light" small>
+        Améliorer <ion-icon name="md-arrow-up"></ion-icon>
+      </button>
+    </ion-card-header>
+
+    <ion-card-content>
+      <div>Niveau 1</div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class='card-building building-forest'>
+    <ion-card-header>
+      <span class='card-title' [navPush]="buildingForestPage">Forêt</span>
+      <button ion-button item-left icon-right color="light" small>
+        Améliorer <ion-icon name="md-arrow-up"></ion-icon>
+      </button>
+    </ion-card-header>
+
+    <ion-card-content>
+      Niveau 1
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class='card-building building-mine'>
+    <ion-card-header>
+      <span class='card-title' [navPush]="buildingMinePage">Mine</span>
+      <button ion-button item-left icon-right color="light" small>
+        Améliorer <ion-icon name="md-arrow-up"></ion-icon>
+      </button>
+    </ion-card-header>
+
+    <ion-card-content>
+      Niveau 1
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class='card-building building-warehouse'>
+    <ion-card-header>
+      <span class='card-title'>Entrepôt</span>
+      <button ion-button item-left icon-right color="light" small>
+        Améliorer <ion-icon name="md-arrow-up"></ion-icon>
+      </button>
+    </ion-card-header>
+
+    <ion-card-content>
+      Niveau 1
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,13 @@
+page-building-mine {
+  ion-content {
+    background-image: url('../assets/images/svg/dirt.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom 20%;
+    background-size: 200%;
+  }
+
+  img {
+    bottom: 20%;
+    position: absolute;
+  }
+}
